@@ -27,7 +27,7 @@ public class Die {
 				dices[3] == 6 && 
 				dices[4] == 6) {
 				return true;
-		}else {
+		} else {
 			return false;
 		}
 	}
