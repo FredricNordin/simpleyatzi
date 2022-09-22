@@ -10,6 +10,7 @@ public class Die {
 		}
 	}
 	
+	// Reads the result of each dice.
 	public static int[] readDices() {
 		for(int i = 0; i < dices.length; i++) {
 			System.out.println("Dice " + i + ". Rolled: " + dices[i]);
